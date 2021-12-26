@@ -90,7 +90,18 @@
       player = new mm.Player();
     }
 
-    function draw() { }
+    function draw() {
+      push();
+      fill(0, 0, 0);
+      rect(5, 5, 270, 100);
+      textSize(14);
+      fill(255, 255, 255);
+      text("以下のキーを押すと音が鳴ります", 20, 30);
+      text("q,w,e,r,t, a,s, z,x", 20, 50);
+      text("", 20, 70);
+      text("スペースキーで音を止められます", 20, 90);
+      pop();
+    }
 
     function keyPressed() {
       if (!player.isPlaying()) {
