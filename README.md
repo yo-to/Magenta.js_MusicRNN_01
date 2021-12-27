@@ -22,6 +22,3 @@
 
 ## ↓体験できるもの
 https://yo-to.github.io/Magenta.js_MusicRNN_01/
-
-## 利用している技術
-手の認識には、Googleさんの [Magenta](https://magenta.tensorflow.org/)の JavaScript版を使っています。
